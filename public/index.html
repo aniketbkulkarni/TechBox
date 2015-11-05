@@ -1,28 +1,16 @@
-
+<!DOCTYPE html>
 <html>
   <head>
-    <title>My ParseApp site</title>
-    <style>
-    body { font-family: Helvetica, Arial, sans-serif; }
-    div { width: 800px; height: 400px; margin: 40px auto; padding: 20px; border: 2px solid #5298fc; }
-    h1 { font-size: 30px; margin: 0; }
-    p { margin: 40px 0; }
-    em { font-family: monospace; }
-    a { color: #5298fc; text-decoration: none; }
-    </style>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react-dom.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.2/marked.min.js"></script>
-    
+    <meta charset="utf-8">
+    <title>TechBox</title>
+    <link rel="stylesheet" href="./shared/css/base.css" />
   </head>
   <body>
-    <div>
-      <h1>Congratulations! You're already hosting with Parse.</h1>
-      <p>To get started, edit this file at <em>public/index.html</em> and start adding static content.</p>
-      <p>If you want something a bit more dynamic, delete this file and check out <a href="https://parse.com/docs/hosting_guide#webapp">our hosting docs</a>.</p>
-    </div>
+    <div id="container"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.24/browser.min.js"></script>
+    <script type="text/babel" src="./components/main.jsx"></script>
+    <span>You will need to use 'python -m SimpleHTTPServer' to view in chrome</span>
   </body>
 </html>
