@@ -2,6 +2,8 @@ var React = require('react');
 var Parse = require('parse').Parse;
 var ParseReact = require('parse-react');
 
+var Nav = require('./Nav.react.js');
+
 // Top Level Component
 var Main = React.createClass({
         render: function() {
@@ -10,7 +12,7 @@ var Main = React.createClass({
 
           return (
             <div>
-                <p>{message}</p>
+                <Nav />
             </div>
          );
 
