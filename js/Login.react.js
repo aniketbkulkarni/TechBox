@@ -2,7 +2,7 @@ var React = require('react');
 var Parse = require('parse').Parse;
 var ParseReact = require('parse-react');
 
-var Signup = React.createClass({
+var Login = React.createClass({
     
     render: function() {
         return (
@@ -40,4 +40,4 @@ var Signup = React.createClass({
     }
 });
 
-module.exports = Signup;
+module.exports = Login;

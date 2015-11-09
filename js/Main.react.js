@@ -3,7 +3,7 @@ var Parse = require('parse').Parse;
 var ParseReact = require('parse-react');
 
 var Recent = require('./RecentlyAdded.react.js');
-var Signup = require('./Signup.react.js');
+var Signup = require('./Login.react.js');
 var Register = require('./Register.react.js')
 var Featured = require('./Featured.react.js')
 
@@ -36,7 +36,7 @@ var Nav = React.createClass({
                               <ul className="nav navbar-nav navbar-right">
                                     <a href="#" className="btn btn-simple">Discovery</a>
                                     <a href="#" className="btn btn-simple">Favorites</a>
-                                    <a className="btn btn-simple"><Link to="/signup"> Sign In</Link></a>
+                                    <a className="btn btn-simple"><Link to="signup"> Sign In</Link></a>
                                </ul>
                             </div>
                           </div>
@@ -64,10 +64,9 @@ var Main = React.createClass({
 
 React.render((
   <Router>
-    <Route path="/" component={Main}>
+    <Route path="/" component={Main}/>
       <Route path="/signup" component={Signup}/>
       <Route path="register" component={Register}/>
-    </Route>
   </Router>
 ), document.body);
 
