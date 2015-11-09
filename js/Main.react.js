@@ -35,7 +35,7 @@ var Nav = React.createClass({
                             <div className="collapse navbar-collapse" id="navigation-example-2">
                               <ul className="nav navbar-nav navbar-right">
                                     <a href="#" className="btn btn-simple">Discovery</a>
-                                    <a href="/signup" className="btn btn-simple">Favorites</a>
+                                    <a href="#" className="btn btn-simple">Favorites</a>
                                     <a className="btn btn-simple"><Link to="/signup"> Sign In</Link></a>
                                </ul>
                             </div>
@@ -64,9 +64,10 @@ var Main = React.createClass({
 
 React.render((
   <Router>
-    <Route path="/" component={Main}/> 
+    <Route path="/" component={Main}>
       <Route path="/signup" component={Signup}/>
       <Route path="register" component={Register}/>
+    </Route>
   </Router>
 ), document.body);
 
