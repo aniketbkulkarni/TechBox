@@ -4,6 +4,9 @@ var ParseReact = require('parse-react');
 
 var Nav = require('./Nav.react.js');
 var Recent = require('./RecentlyAdded.react.js');
+var Signup = require('./Signup.react.js');
+var Register = require('./Register.react.js')
+var Featured = require('./Featured.react.js')
 
 // Top Level Component
 var Main = React.createClass({
@@ -14,7 +17,9 @@ var Main = React.createClass({
           return (
             <div>
                 <Nav />
-                <Recent />
+                <Register />
+                
+                
             </div>
          );
 

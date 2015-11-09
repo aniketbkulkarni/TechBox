@@ -24,6 +24,7 @@ var RecentlyAdded = React.createClass({
             {this.data.items.map(function(c) {
 
             return (
+
                   <div className="col-sm-6 col-md-4">
                     <div className="thumbnail">
                       <img src={c.image1._url} alt=""></img>
