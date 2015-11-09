@@ -26,6 +26,7 @@ var Nav = React.createClass({
                               <ul className="nav navbar-nav navbar-right">
                                     <a href="#" className="btn btn-simple">Discovery</a>
                                     <a href="#" className="btn btn-simple">Favorites</a>
+                                    <a href="#" className="btn btn-simple">Login</a>
                                </ul>
                             </div>
                           </div>
