@@ -6,6 +6,6 @@ import config from '../config';
 
 gulp.task('clean', function(cb) {
 
-  del([config.buildDir], cb);
+  del([], cb);
 
 });
