@@ -2,10 +2,11 @@ var React = require('react');
 var Parse = require('parse').Parse;
 var ParseReact = require('parse-react');
 
+var Keys = require('./keys.js');
 
 // Top Level Component
 var RecentlyAdded = React.createClass({
-
+  
     mixins: [ParseReact.Mixin],
 
     observe: function() {
