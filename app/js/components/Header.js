@@ -22,16 +22,14 @@ class Header extends React.Component {
                 <span className="icon-bar"></span>
                 <span className="icon-bar"></span>
               </button>
-              <a className="navbar-brand" href="">TechBox</a>
+              <Link to="/" className="navbar-brand">TechBox</Link>
             </div>
         
             <div className="collapse navbar-collapse" id="navigation-example-2">
               <ul className="nav navbar-nav navbar-right">
-                  <a href="#" className="btn btn-simple">Featured</a>
-                  <Link to="/search">Back to Home</Link>
-                  <a href="#" className="btn btn-simple">Recently Added</a>  
-                  <a href="#" className="btn btn-simple">Login</a>
-                  <a href="#" className="btn btn-simple">Signup</a>
+                  <Link to="/favorites" className="btn btn-simple">Favorites</Link>
+                  <Link to="/login" className="btn btn-simple">Login</Link>
+                  <Link to="/register" className="btn btn-simple">Register</Link>
                </ul>
             </div>
           </div>
