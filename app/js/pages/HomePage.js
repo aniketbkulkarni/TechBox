@@ -111,9 +111,7 @@ class HomePage extends React.Component {
           <Featured />
           <RecentlyAdded />
 
-          <div>
-            <Link to="/search">Search</Link>
-          </div>
+
 
         </section>
       </DocumentTitle>
