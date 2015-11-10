@@ -2,7 +2,10 @@
 
 import React            from 'react';
 import {Link}           from 'react-router';
+import {Redirect}       from 'react-router';
+
 import DocumentTitle    from 'react-document-title';
+
 
 const propTypes = {
   currentUser: React.PropTypes.object
@@ -41,7 +44,7 @@ class LoginPage extends React.Component {
                                             <label>Password</label>
                                             <input type="password" className="form-control" placeholder="Password" />
                                             <button className="btn btn-primary btn-block">Sign In</button>
-                                            <button className="btn btn-primary btn-block">Register</button>
+                                            <Link to="/register" className="btn btn-primary btn-block">Register</Link>
 
                                         </form>
                                         <div className="forgot">
