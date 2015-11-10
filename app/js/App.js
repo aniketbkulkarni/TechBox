@@ -1,11 +1,13 @@
 'use strict';
 
 import React              from 'react';
+import Parse              from 'parse';
 
 import CurrentUserActions from './actions/CurrentUserActions';
 import CurrentUserStore   from './stores/CurrentUserStore';
 import Header             from './components/Header';
 import Footer             from './components/Footer';
+import Keys               from './keys.js';
 
 const propTypes = {
   params: React.PropTypes.object,
@@ -15,6 +17,8 @@ const propTypes = {
     React.PropTypes.object
   ])
 };
+
+Parse.initialize(Keys.appId, Keys.jsKey);
 
 class App extends React.Component {
 
