@@ -88,9 +88,8 @@
     background-color: #cc0000;
     border-radius: 8px;
     color: #fff;
-    width: 600px;
-    margin-left: 0;
-    margin-right: 70;
+    width: 80%;
+    margin: auto;
     min-height: 400px;
     padding: 20px;
 }

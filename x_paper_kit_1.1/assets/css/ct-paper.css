@@ -1848,8 +1848,10 @@ textarea.form-control {
 }
 
 .img-details {
+  text-align: center;
   min-height: 50px;
   padding: 0 4px 0.5em;
+  margin: auto;
 }
 
 .img-details .author {
@@ -2414,6 +2416,7 @@ textarea.form-control {
 }
 
 .carousel-inner {
+  text-align: center;
   background-color: #d6d2cc;
 }
 
@@ -2425,7 +2428,7 @@ textarea.form-control {
 .carousel-inner > .item > a > img {
   border-radius: 8px;
   box-shadow: 0 2px 2px rgba(204, 197, 185, 0.5);
-  margin-left: 25%;
+  margin: auto;
   max-width: 50%;
 }
 
