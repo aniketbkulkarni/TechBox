@@ -84,7 +84,7 @@ class RegisterPage extends React.Component {
 
 
 
-                                      <button className="btn btn-primary btn-block">Sign Up!</button>
+                                      <button className="btn btn-neutral btn-block">Sign Up!</button>
 
                                     </form>
                                         

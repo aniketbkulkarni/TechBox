@@ -49,7 +49,7 @@ class NextItems extends React.Component {
                         <div className="item">
                           <h4>Next</h4>
                           <Link to="/reviews">
-                            <img src="assets/paper_img/gpr.jpg" alt="Awesome Image"/>
+                            <img src="assets/paper_img/question.jpg" alt="Awesome Image"/>
                           </Link>
                         </div>
                       </div>
@@ -95,7 +95,9 @@ class FavoritedItems extends ParseComponent {
 
                     <div className="col-sm-6 col-md-4">
                       <div className="thumbnail">
+                        <Link to="/reviews">
                         <img src={c.image._url} alt=""></img>
+                        </Link>
                         <div className="caption">
                           <h5>{c.objectName}</h5>
                           <p>...</p>

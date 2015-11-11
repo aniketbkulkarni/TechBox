@@ -12,7 +12,7 @@ class Footer extends React.Component{
     return (
       <footer>
 
-        Footer
+        TechBox - 2015
 
       </footer>
     );

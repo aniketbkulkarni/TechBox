@@ -10,7 +10,7 @@ import LoginPage                   from './pages/LoginPage';
 import RegisterPage                from './pages/RegisterPage';
 import FavoritesPage               from './pages/FavoritesPage';
 import ReviewsPage                 from './pages/ReviewsPage';
-
+import MakeReviewPage              from './pages/MakeReviewPage';
 import NotFoundPage                from './pages/NotFoundPage';
 
 export default (
@@ -24,6 +24,7 @@ export default (
       <Route path="/register" component={RegisterPage} />
       <Route path="/favorites" component={FavoritesPage} />
       <Route path="/reviews" component={ReviewsPage} />
+      <Route path="/makereview" component={MakeReviewPage} />
 
       <Route path="*" component={NotFoundPage} />
 

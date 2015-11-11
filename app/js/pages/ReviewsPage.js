@@ -56,7 +56,7 @@ class ReviewsPage extends ParseComponent {
                             <div className="col-xs-10 col-sm-10 col-md-6">
                                 <ul className="nav nav-pills nav-pills-primary">
                                      <li className="active"><a href="#">Favorite!</a></li>
-                                     <li><a href="#">Review!</a></li>
+                                     <li><Link to="/makereview" a href="#">Review!</Link></li>
                                </ul>
                             </div>
                         </div>

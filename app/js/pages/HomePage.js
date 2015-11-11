@@ -34,12 +34,15 @@ class Featured extends React.Component {
                 
                 <div className="carousel-inner">
                   <div className="item active">
+                    <h4>Featured item #1</h4>
                     <img src="assets/paper_img/nose.jpg" alt="Awesome Image" height="50"/>
                   </div>
                   <div className="item">
+                    <h4>Featured item #2</h4>
                     <img src="assets/paper_img/xbox.jpg" alt="Awesome Image" height="50"/>
                   </div>
                   <div className="item">
+                    <h4>Featured item #3</h4>
                     <img src="assets/paper_img/gph.jpg" alt="Awesome Image" height="50"/>
                   </div>
                 </div>
@@ -85,8 +88,8 @@ class RecentlyAdded extends ParseComponent {
                       <img src={c.image1._url} alt=""></img>
                       <div className="caption">
                         <h5>{c.name}</h5>
-                        <p>...</p>
-                        <p><a href="#" className="btn btn-primary" role="button">Buttonz</a></p>
+      
+                        <p><a href="#" className="btn btn-primary" role="button">Favorite</a></p>
                       </div>
                     </div>
                   </div>
