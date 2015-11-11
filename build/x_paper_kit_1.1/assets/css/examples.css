@@ -49,16 +49,14 @@
     color: #FFF;
 }
 .register-background{
-    background-image: url('../paper_img/game.jpg');
-    background-position: center center;
-    background-size: cover;
+    
     min-height: 100vh;
     overflow: hidden;
     position: absolute;
     width: 100%;
 }
 .register-background .filter-black::after{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(178, 178, 178, 0.5);
     content: "";
     display: block;
     height: 100%;
@@ -85,7 +83,7 @@
 }
 
 .register-card2{
-    background-color: #cc0000;
+    background-color: #EB5E28;
     border-radius: 8px;
     color: #fff;
     width: 80%;
@@ -109,7 +107,7 @@
 }
 
 .register-card{
-    background-color: #cc0000;
+    background-color: #EB5E28;
     border-radius: 8px;
     color: #fff;
     max-width: 350px;
