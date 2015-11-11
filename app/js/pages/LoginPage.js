@@ -5,6 +5,8 @@ import { render }       from 'react-dom'
 import Parse            from 'parse';
 import ParseReact       from 'parse-react';
 import {Link}           from 'react-router';
+import {History}        from 'react-router';
+import {PropTypes}        from 'react-router';
 import {Redirect}       from 'react-router';
 
 import DocumentTitle    from 'react-document-title';
@@ -17,6 +19,7 @@ const propTypes = {
 };
 
 class LoginPage extends ParseComponent {
+
 
   constructor(props) {
     super(props);
@@ -49,7 +52,7 @@ class LoginPage extends ParseComponent {
   }
 
   handleSubmit(event) {
-    event.preventDefault()
+    event.preventDefault();
 
     const email = this.state.email
     const pass = this.state.pass
@@ -67,6 +70,10 @@ class LoginPage extends ParseComponent {
         Parse.User.become(token).then(function (user) {
             // The current user is now set to user.
             console.log("Success");
+
+            // this.context.router.transitionTo('/');
+            window.location.assign("/");
+
           }, function (error) {
             // The token could not be validated.
           });
