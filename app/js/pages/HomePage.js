@@ -20,6 +20,12 @@ class Featured extends React.Component {
 
   render() {
     return (
+    <div>
+      <div className="alert alert-warning">
+             <div className="container">
+                 <center>Get new tech for only $15 a month!</center>
+            </div>
+      </div>
       <div id="carousel">
           <div id="carousel-example-generic" className="carousel slide" data-ride="carousel">
           <div className="carousel slide" data-ride="carousel">
@@ -57,6 +63,7 @@ class Featured extends React.Component {
               </div>
           </div>
       </div> 
+    </div>
     );
   }
 }

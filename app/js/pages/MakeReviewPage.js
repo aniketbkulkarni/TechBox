@@ -65,6 +65,7 @@ class MakeReview extends React.Component {
                                       </div>
 
                                       <Link to = "/reviews" button className="btn btn-neutral btn-block">Submit</Link>
+                                      <Link to = "/reviews" button className="btn btn-neutral btn-block">Cancel</Link>
 
                                     </form>
                                         

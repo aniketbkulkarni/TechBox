@@ -12,7 +12,6 @@ class Footer extends React.Component{
     return (
       <footer>
 
-        TechBox - 2015
 
       </footer>
     );

@@ -60,11 +60,19 @@ class Header extends ParseComponent {
                   <span className="icon-bar"></span>
                   <span className="icon-bar"></span>
                 </button>
-                <Link to="/" className="navbar-brand">TechBox</Link>
+
+
+                <div className="navbar-brand">
+                  <img src="assets/paper_img/logo.png" alt="Awesome Image" height="40"/>
+                </div>
+
+                <Link to="/" className="navbar-brand">TechBox
+                </Link>
               </div>
           
               <div className="collapse navbar-collapse" id="navigation-example-2">
                 <ul className="nav navbar-nav navbar-right">
+
                     <Link to="/favorites" className="btn btn-simple">Favorites</Link>
                     <Link to="/login" className="btn btn-simple">Login</Link>
                     <Link to="/register" className="btn btn-simple">Register</Link>
