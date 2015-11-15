@@ -1,12 +1,12 @@
 'use strict';
 
 import React            from 'react';
-import { render }       from 'react-dom'
+import { render }       from 'react-dom';
 import Parse            from 'parse';
 import ParseReact       from 'parse-react';
 import {Link}           from 'react-router';
 import {History}        from 'react-router';
-import {PropTypes}        from 'react-router';
+import {PropTypes}      from 'react-router';
 import {Redirect}       from 'react-router';
 
 import DocumentTitle    from 'react-document-title';
@@ -80,7 +80,7 @@ class LoginPage extends ParseComponent {
 
       }, error: function(user, error) {
         // The login failed. Check error to see why.
-        
+
       }
     });
 
@@ -90,7 +90,7 @@ class LoginPage extends ParseComponent {
     return (
       <DocumentTitle title="Login">
         <div className="wrapper">
-                <div className="register-background"> 
+                <div className="register-background">
                     <div className="filter-black"></div>
                         <div className="container">
                             <div className="row">
@@ -117,14 +117,14 @@ class LoginPage extends ParseComponent {
 
               <p><a href="#" target="_blank" className="btn btn-simple"><i className="fa fa-twitter"></i></a>
               <a href="#" target="_blank" className="btn btn-simple"><i className="fa fa-facebook"></i></a></p>
-              
+
           </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>     
+                        </div>
                 </div>
-            </div>      
+            </div>
       </DocumentTitle>
     );
   }
