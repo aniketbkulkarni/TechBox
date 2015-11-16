@@ -21,23 +21,19 @@ class Featured extends React.Component {
   render() {
     return (
     <div>
-      <div className="alert alert-warning">
-             <div className="container">
-                 <center>Get new tech for only $15 a month!</center>
-            </div>
-      </div>
+      
       <div id="carousel">
           <div id="carousel-example-generic" className="carousel slide" data-ride="carousel">
           <div className="carousel slide" data-ride="carousel">
 
-                
+
                 <ol className="carousel-indicators">
                   <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                   <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                   <li data-target="#carousel-example-generic" data-slide-to="2"></li>
                 </ol>
-              
-                
+
+
                 <div className="carousel-inner">
                   <div className="item active">
                     <h4>Featured item #1</h4>
@@ -52,8 +48,8 @@ class Featured extends React.Component {
                     <img src="assets/paper_img/gph.jpg" alt="Awesome Image" height="50"/>
                   </div>
                 </div>
-              
-                
+
+
                 <a className="left carousel-control" href="#carousel-example-generic" data-slide="prev">
                   <span className="fa fa-angle-left"></span>
                 </a>
@@ -62,7 +58,7 @@ class Featured extends React.Component {
                 </a>
               </div>
           </div>
-      </div> 
+      </div>
     </div>
     );
   }
@@ -90,12 +86,12 @@ class RecentlyAdded extends ParseComponent {
 
             return (
 
-                  <div className="col-sm-6 col-md-4">
+                  <div className="col-sm-4 col-md-4">
                     <div className="thumbnail">
                       <img src={c.image1._url} alt=""></img>
                       <div className="caption">
                         <h5>{c.name}</h5>
-      
+
                         <p><a href="#" className="btn btn-primary" role="button">Favorite</a></p>
                       </div>
                     </div>

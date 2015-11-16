@@ -33,14 +33,14 @@ class NextItems extends React.Component {
                 <div id="carousel-example-generic" className="carousel slide" data-ride="carousel">
                 <div className="carousel slide" data-ride="carousel">
 
-                      
+
                       <ol className="carousel-indicators">
                         <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                         <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                        
+
                       </ol>
-                    
-                      
+
+
                       <div className="carousel-inner">
                         <div className="item active">
                           <h4>Current</h4>
@@ -53,8 +53,8 @@ class NextItems extends React.Component {
                           </Link>
                         </div>
                       </div>
-                    
-                      
+
+
                       <a className="left carousel-control" href="#carousel-example-generic" data-slide="prev">
                         <span className="fa fa-angle-left"></span>
                       </a>
@@ -63,7 +63,7 @@ class NextItems extends React.Component {
                       </a>
                     </div>
                 </div>
-            </div>  
+            </div>
     );
   }
 }
@@ -84,7 +84,7 @@ class FavoritedItems extends ParseComponent {
 
           return (
 
-          
+
           <div>
               <NextItems />
               <h3>Your Favorites!</h3>
